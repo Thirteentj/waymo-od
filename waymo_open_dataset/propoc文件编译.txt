@@ -1,0 +1,16 @@
+D:
+cd Data/Git/waymo-od
+
+protoc waymo_open_dataset/protos/map.proto --python_out=.
+
+
+protoc waymo_open_dataset/protos/breakdown.proto --python_out=.
+
+
+protoc waymo_open_dataset/protos/metrics.proto --python_out=.
+
+protoc waymo_open_dataset/protos/motion_metrics.proto --python_out=.
+
+protoc waymo_open_dataset/protos/motion_submission.proto --python_out=.
+
+protoc waymo_open_dataset/protos/submission.proto --python_out=.
